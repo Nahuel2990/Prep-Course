@@ -62,8 +62,7 @@ function asAmirror(str) {
       return elemento.split('').reverse().join('')         
   })                                                      
     return invertida.join(' ')                            
-
-} 
+}
 
 
 function capicua(numero){
