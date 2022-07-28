@@ -1,18 +1,68 @@
 h1 {
-    color: red;
+    color: brown;
+    display: flex;
+    justify-content: center;
     }
-img {
-    width: 300px;
-}   
+h3 {
+    display: flex;
+    justify-content: center;
+}    
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
 #thirdDiv {
     height: 600px;
     width: 500px;
-    background: blue;
-    padding: 50px;
-    border: 6px solid red;
+    background: blanchedalmond;
+    padding: 10px;
+    border: 6px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+img {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
 } 
+ 
 #spanId {
     font: 18px;
     margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content:center;
+           
+}
+a {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    max-width: 600px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 250px;
+    height: 250px;
     
+}
+
+body {
+    height: 800px;
+    background-image: url("https://static-cse.canva.com/blob/836123/1600w-NKttyGVDAes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
 }
